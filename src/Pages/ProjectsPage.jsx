@@ -47,7 +47,7 @@ const projects = [
     stack: ["HTML 5", "CSS 3", "JavaScript", "Tailwind CSS", "React"],
     live: "https://aquamarine-faloodeh-613cbf.netlify.app/",
     github: "https://github.com/thisismeZML/react-moviewebsite",
-  },
+  }
 ];
 
 
@@ -76,7 +76,7 @@ const ProjectsPage = () => {
         </p>
         <h2 className="h2 font-bold text-white">{title}</h2>
         <p className="text-gray-300">{desc}</p>
-        <h3 className="text-lg font-semibold text-green-400 mt-4">Stack:</h3>
+        <h3 className="text-lg font-semibold text-accent mt-4">Stack:</h3>
         <ul className="flex flex-wrap justify-center lg:justify-start gap-2">
           {stack.map((tech, index) => (
             <li
