@@ -68,7 +68,7 @@ const ProjectsPage = () => {
     projects[currentIndex];
 
   return (
-    <div className="text-white min-h-[calc(100vh-15rem)] bg-primary flex flex-col lg:flex-row items-center justify-center container ">
+    <div className="text-white min-h-[calc(100vh-15rem)] bg-primary flex flex-col lg:flex-row items-center justify-center container mb-8">
       {/* Left Section - Project Details */}
       <div className="w-full lg:w-1/2 space-y-6 order-2 lg:order-none text-center lg:text-left">
         <p className="h3 font-semibold text-accent">

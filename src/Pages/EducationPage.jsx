@@ -27,7 +27,7 @@ const educations = {
 
 const EducationPage = () => {
   return (
-    <div className="text-center lg:text-left">
+    <div className="text-center lg:text-left mb-8">
       <div className="flex flex-col gap-4 mb-4">
         <h2 className="h2">{educations.title}</h2>
         <p className="mb-4">{educations.description}</p>

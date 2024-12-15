@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutPage = () => {
   return (
-    <section className="flex items-center justify-center min-h-[calc(100vh-15rem)] bg-primary text-gray-300 px-4">
+    <section className="flex items-center justify-center min-h-[calc(100vh-15rem)] bg-primary text-gray-300 px-4 mb-8">
       <div className="text-center max-w-3xl">
         <h2 className="text-4xl font-bold mb-6 text-accent">About Me</h2>
         <p className="text-lg leading-relaxed mb-4">
