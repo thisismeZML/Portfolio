@@ -23,6 +23,9 @@ export default {
           hover: "#00e187",
         },
       },
+      animation: {
+        'spin-slow': 'spin 4s linear infinite', // Rotates slowly
+      },
     },
   },
   plugins: [],

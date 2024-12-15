@@ -1,6 +1,5 @@
 import React from "react";
 import Header from "./Header";
-import Footer from "./Footer";
 import { Outlet } from "react-router-dom";
 import useNavStore from "../store/useNavStore"; // Adjust the path as per your folder structure
 
@@ -22,7 +21,6 @@ const PublicLayout = () => {
         <Outlet />
       </div>
 
-      <Footer />
     </main>
   );
 };
