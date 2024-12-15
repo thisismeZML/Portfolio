@@ -20,7 +20,7 @@ const Header = () => {
         {/* Desktop Nav */}
         <div className="hidden lg:flex items-center gap-8">
           <Navbar />
-          <NavLink to="/hireme">
+          <NavLink to="/contact">
             <button className="bg-accent hover:bg-accent-hover text-black px-4 py-2 rounded-md">
               Hire Me
             </button>

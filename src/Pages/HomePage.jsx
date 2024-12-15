@@ -10,7 +10,7 @@ const HomePage = () => {
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-16 xl:pb-24 gap-12">
           {/* Text Section */}
           <div className="text-center xl:text-left w-full xl:w-1/2 space-y-6 order-2 xl:order-none">
-            <span className="text-lg font-semibold">Web Developer</span>
+            <span className="text-lg font-semibold">Frontend Developer</span>
             <h1 className=" h1 font-bold">
               Hello, I'm <span className="text-accent">Zin Min Latt</span>
             </h1>
