@@ -112,7 +112,7 @@ const ProjectsPage = () => {
         <img
           src={image}
           alt={title}
-          className="max-w-md xl:max-w-full rounded-lg shadow-2xl"
+          className="sm:max-w-md md:max-w-full xl:max-w-full rounded-lg shadow-2xl"
         />
 
         {/* Navigation Arrows Section */}
