@@ -5,7 +5,7 @@ import { FaLocationDot } from "react-icons/fa6";
 
 const ContactPage = () => {
   return (
-    <div className="text-white min-h-[calc(100vh-15rem)] bg-primary flex flex-col lg:flex-row items-center justify-center container mb-8">
+    <div className="text-white min-h-[calc(100vh-15rem)] bg-primary flex flex-col lg:flex-row items-center justify-center container mb-8 lg:mb-0">
       <div className=" w-full grid lg:grid-cols-2 gap-8">
         {/* Left Section - Form */}
         <div className="bg-gray-800 p-8 rounded-lg shadow-lg">

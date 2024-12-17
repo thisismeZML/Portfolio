@@ -39,7 +39,7 @@ const skills = {
 };
 const SkillPage = () => {
   return (
-    <div className="text-center lg:text-left mb-8">
+    <div className="text-center lg:text-left mb-8 lg:mb-0">
       <div className="flex flex-col gap-4 mb-4">
         <h2 className="h2">{skills.title}</h2>
         <p className="mb-4">{skills.description}</p>

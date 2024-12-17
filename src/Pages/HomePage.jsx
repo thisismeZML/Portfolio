@@ -5,7 +5,7 @@ import Photo from "../components/Photo";
 
 const HomePage = () => {
   return (
-    <section className="h-full mb-8">
+    <section className="h-full mb-8 lg:mb-0">
       <div className="container h-full">
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-16 xl:pb-24 gap-12">
           {/* Text Section */}
